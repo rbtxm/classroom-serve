@@ -23,6 +23,7 @@ dependencies {
     implementation("org.springframework:spring-jms")
     implementation("org.springframework.cloud:spring-cloud-context:3.1.3")
     implementation("org.springframework.cloud:spring-cloud-commons:3.1.3")
+    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     implementation("org.springframework:spring-context:5.3.22")
     runtimeOnly("org.postgresql:postgresql")
     implementation("org.springframework.boot:spring-boot-starter-web")

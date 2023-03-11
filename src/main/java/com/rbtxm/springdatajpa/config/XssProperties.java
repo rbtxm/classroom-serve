@@ -5,10 +5,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @Author: guanxiangkai
- * @Description:
- * @Data: 2023年03月11日 周六 15时05分08秒
+ * @Description: 配置文件接受类
+ * @Data: 2023年03月11日 周六 14时48分36秒
  **/
 @Data
-@ConfigurationProperties(prefix = "")
-public class Config {
+@ConfigurationProperties(prefix = "s.xss")
+public class XssProperties {
 }

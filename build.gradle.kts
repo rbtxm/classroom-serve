@@ -20,6 +20,10 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework:spring-jms")
+    implementation("org.springframework.cloud:spring-cloud-context:3.1.3")
+    implementation("org.springframework.cloud:spring-cloud-commons:3.1.3")
+    implementation("org.springframework:spring-context:5.3.22")
     runtimeOnly("org.postgresql:postgresql")
     implementation("org.springframework.boot:spring-boot-starter-web")
     compileOnly("org.projectlombok:lombok")

@@ -5,6 +5,7 @@ pluginManagement {
         mavenCentral()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
@@ -13,5 +14,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "classroom-serve"
-
-include("common")
+include("gateway")
